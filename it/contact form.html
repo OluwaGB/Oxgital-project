@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <script type="text/javascript">
+        
+           
+        
+
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,   initial-scale=1.0">
+    <title>Document</title>
+    <link href="contact.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+    <form  method="POST" action="newDatabase.php">
+        <h>Send us message</h><br/>
+        <input type="text" name="fullname" id="fullame" required = "true">
+        <br/>
+        <input name="Email" id="email" type="email" placeholder="Email" required>
+        <br/>
+        <input name ="department" type="text" id="department" placeholder ="Department" required>
+        <br/>
+        <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]4" required size="11" id="phoneno" placeholder="phoneno" required>
+        <br/>
+        <button type="submit"  onclick="document.location = 'Home Page.html'" 
+         id="submitBtn">Send Message</button>
+    
+</form>
+    <div id="details">
+        <h id="contact">Contact Us</h>
+        <p>We are open for any suggestion or just to have a <br/>chat</p>
+
+        <i class="fa fa-map"></i><Address>
+            <b>Adress</b>198 West 21th Street,suite 721<br/>
+        New York NY 10016</Address>
+        <br/>
+        <i class="fa fa-phone"><Address><b>phone:</b> +1235-2355 98
+        </Address></i>
+        <br/>
+       <span> <i class="fa fa-envelope"></i></span>
+       <span><Address><b>Email:</b> <a href="https://iyanuoluwaoyboade@gmail.com">info@yoursite.com</a>
+        </Address></span><br/>
+        <i class="fa fa-globe"><Address><b>Website:<a href="Home Page.html">Www.oxgital.com</a></b>
+        </Address></i>
+    
+    
+</div>
+</body>
+</html>

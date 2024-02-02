@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link relative="stylesheet" href="about.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+   <style>
+    @media screen and(max-width:480px;){section{
+        width:100%;
+    }
+        nav{
+            max-width: 20%;
+        }
+         a{display:grid;
+        color:blue;}
+        img{
+           max-width: 25%;
+        }
+    }
+     #flex{justify-content:space-between;
+        margin-right: 20%;
+    
+       display:grid; 
+        place-content: center;
+        margin-bottom:10px;
+        
+    }
+    #bigcolumn{
+        padding:2rem;
+    }
+     img{
+        size:20%;
+    }
+    #imgs{display:flex;
+    
+}
+    h1{
+        margin-top:140px;
+    }
+    h1,h2{
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    #hero{ align-items:center;
+        color:white;
+        background-color: black;
+        place-content: center;
+      /* padding: 70px 50px 150px 50px;*/
+       padding:5%;
+    }
+        h1,h2{
+            color:white;
+            font-weight:700;
+            font-size: 48px;
+        }
+        img{
+            size:20%;
+        }
+        #sct2{
+            margin: 20px;
+            padding:40px;
+            display:flex;
+            justify-content:space-around;
+            flex-grow: inherit;
+            column: gap 5px; ;
+        }
+        #flex1{
+            margin-left: 15%;
+        }
+        #bigcolumn{
+            margin-left: 15%;
+            display:grid;
+        }
+        #column3,#counter{
+            display:flex;
+        }
+        #wizeman{
+            size:;
+        width:;
+        height:;
+            max-width:fit-content;
+        }
+        #label,#grid{
+            display:grid;
+        }
+        #sct7{
+        background-image: url(img/Oxgital-Header\ \(1\)\ \(1\).png);
+        background-blend-mode: overlay;
+        background-color: rgb(36, 35, 35);
+        opacity:;
+        padding:30px
+    }
+    #sct7{
+        color:#ffffff;
+        padding:10%;
+    }
+    #sct7btn{margin-top:30px;
+        color:black;
+        background-color:white;
+        border:none;
+        outline:1px solid white;
+        padding:10px;
+        border-radius: 10px;
+    }
+    #sct7btn:hover{
+        color:white;
+        background-color:black;
+        border:none;
+        outline:1px solid black;
+    }
+    #paragraph{
+        font-family:arial;
+        font-size:16px;
+    }
+    #footer{color:white;
+        background-color:#000000;
+        padding:10%;
+        display:flex;
+        column-gap:40px;
+        font-weight: 300;
+    }
+    footer{color:white;
+        display:grid;
+        background-color: #000000;
+    }
+    #footer1{padding: 5%;
+        display:flex;
+        justify-content:space-between;
+    }
+   /* #footer p{
+        font-family: Arial, Helvetica, sans-serif;
+    }*/
+    footer a{
+        text-decoration: none;
+        color:white;
+    }
+    footer a:hover{
+        text-decoration: none;
+        color:white;
+    }
+    #fcolumn,#fcolumn1,#fcolumn2{
+        margin-top: 10px;
+        display:grid;
+    }
+    #socialicons i:hover{color:#ddac17;
+
+    }
+    #fColumn1 a{color:white;
+        font-size:14px;
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration:none;
+    }
+     #fcolumn1 a:hover{text-align: left;
+        color:#ddac17;
+        font-size: 14px;
+        text-decoration: none;
+    
+        
+    font-weight: 400;
+    }
+    header{
+        font-family:Arial, Helvetica, sans-serif;
+        margin-top:10px;
+        margin-bottom:5px;
+        
+    }
+    #copyright{color:white;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color:#000000;
+    }
+    #flex{margin-left:20%;}
+    #team{
+        font-size:62px;
+    }
+    #dsc{
+        font-size:16px;
+    }
+    
+    /*
+    .dropdown{
+        display:inline-block;
+        position:relative;
+    }*/
+    .dropdown-links{
+        display:none;
+        color:white;
+        width:100%;
+        overflow:auto;/* to nable scrolling on small screen*/
+        z-index:1;
+    }
+    /*.dropdown:hover .dropdown-links{
+        display:block;
+    }*/
+    nav{
+        display:flex;
+        justify-content: space-between;
+        margin-bottom: 40px;
+        margin-top: 3px;
+    }
+    nav a{text-decoration: none;
+        color:white;
+        font-family:Arial, Helvetica, sans-serif
+    }
+    nav a:hover{
+        color:#ddac17;
+    }
+    nav button{
+        border-radius: 10px;
+        border:none;
+        padding:5px;
+        width:8%;
+    }
+    nav button:hover{
+        background-color: #ddac17;
+        color:white;
+    }
+    #label h2{
+        color:black;
+    }
+
+   </style>
+    <div id="about">
+    <section id="hero">
+        <div id="about"></div>
+        <nav>
+            <img id="logo"src="img/logo.png"></img>
+            <link>
+           <div class="dropdown"> <a href="Home Page.html">Home</a>
+            <div class="dropdown-links">
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+                <a href="#">Service</a>
+                <a href="#">Projects</a>
+            </div></div>
+            <a href="about.html">Aboutus</a>
+            <a href="#">Contactus</a>
+            <a href="#">Services</a>
+            <a href="#">Projects</a>
+            <a href="#">Blogs</a></link>
+            <button id="navbtn">Get Quote</button>
+        </nav>
+        <h1 align="center">About-Us 0xgital</h1>
+    </section>
+    <section id="sct2">
+        <div id="column1">
+            <img id="wizeman"src="img/wizeman.webp">
+        </div>
+       <div id ="bigcolumn"> <div id="column2">
+            <h2>We're a Result-Driven Digital Agency</h2>
+            <p> <a href="Home Page.html">Oxgital</a>  is a website design and digital marketing agency in Nigeria.<br> At Oxgital, we believe every business deserves a strong online presence and we offer a range of digital marketing services
+                 to help you reach your target audience and grow your company or organization. <br>
+
+                Our team is made up of experienced professionals who are passionate about helping you succeed in the digital space.<br> We work with businesses and organizations of all sizes, to create custom websites that are visually appealing, user-friendly, and optimized for search engines.</p>
+        </div>
+        <div id="column3">
+            <img src="signature"></img>
+           <div> <h3><a href="https://tribuneonlineng.com/ecowas-youth-council-appoints-osungbade-youth-ambassador/">
+                Osungbade Abdulakeem
+            </a></h3>
+            <h4>FOUNDER AND CEO</h4></div>
+        </div>
+    </div>
+    </section>
+    <section id="sct2"><div id="counter">
+        <div id="grid"><div id="label"><h2 id="h2">2022</h2>
+        <div id="label"></div><label for="ESTABLISHED">ESTABLISHED</label></div>
+        <div id="label"><h2 id="h2">11</h2>
+        <label for="ESTABLISHED">EMPLOYEES</label></div></div>
+        <div id="grid"> <div id="label"><h2>24/7</h2>
+        <label for="ESTABLISHED">AVAILABILITY</label></div>
+        <div id="label"><h2>100%</h2>
+        <label for="ESTABLISHED">SATISFACTION</label>
+    </div>
+
+    </div>
+</div>
+        <div id="flex1">
+            <img src="img/sider image.webp"></img>
+        </div>
+    </section>
+    <section id="sct4">
+        <h2 id="team" style="color:black; font-weight: 700;font-size: large;" align="center">Oxgital Team</h2>
+        <h5 id="dsc" align="center">Passionate, creative, and dedicated, meet the brains and brawn behind Oxgital</h5>
+        <div align ="center" id="flex">
+          <div id="imgs">  <img src="img/Anisco.jpeg">
+            <img  src="img/Mujeeb.png">
+            <img src="img/rotimi.jpeg"></div>
+          <div id="imgs">  <img src="img/henry.jpeg">
+            <img src="img/tobi.png">
+            <img src="img/iyanuoluwa.jpeg"></div>
+        </div>
+    </div>
+    
+    </section>
+</div>
+<section align="center" id="sct7">
+    <h2>Let's Work On Your Next <br/>Project!</h2>
+    <p id="paragraph">Tap into potential of our team at Oxgital, get in touch and discover  how our  services can
+        <br/> drive your business growth and success</p>
+        <button id="sct7btn">GET IN TOUCH</button>
+</section>
+<footer>
+    <div id="footer1">
+        <div id="fColumn1">
+           <div id="footerimg"> <img src="img/logo.png"></img></div>
+            <p>Website Design and Digital Marketing Agency in Nigeria.<br/>
+                Our mission is to help businesses and organization of all sizes grow<br/>
+                 and succeed digitally.</p>
+                 <div id="socialicons">
+                    <i class="fa fa-twitter"><a href="#"></a> </i>
+                    <i class="fa fa-facebook"> <a href="#"></a> </i>
+                    <i class="fa fa-linkedin"> </i>
+                    <i class="fa fa-instagram"> </i></div>
+                 </div>
+                 
+                 
+     
+     <div id="fcolumn1">
+        <header><b>QuickLink</b></header>
+        <a href="Home Page.html">Home</a><br/>
+        <a href="Home Page.html">About</a><br/>
+        <a href="Home Page.html">Service</a><br/>
+        <a href="Home Page.html">Contact</a><br/>
+        
+     </div>
+
+     <div id="fcolumn1">
+        <header><b>Our Services</b></header>
+        <a href="Home Page.html">Website Designing</a><br/>
+        <a href="Home Page.html">Digital Marketing</a><br/>
+        <a href="Home Page.html">Branding and Design</a><br/>
+        <a href="Home Page.html">Search Engine Optimisation</a>
+        
+     </div>
+     
+     <div id="fcolumn1">
+        <header><b>Contact Info</b></header>
+        <a href="Home Page.html">Lagos, Nigeria</a><br/>
+        <a href="Home Page.html">+2348109206196</a><br/>
+        <a href="Home Page.html">Contact@oxgital.com</a><br/>
+        
+     </div></div>
+    <div align="center" id="copyright">Copyright2024</div>
+</footer>  
+</body>
+</html>

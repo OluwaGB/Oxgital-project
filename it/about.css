@@ -1,0 +1,192 @@
+/*#flex{
+    align-items: center;
+    color:white;
+    background-color: black;
+    place-content: center;
+    padding:150px 50px 150px 50px;
+}
+#about{ align-items:center;
+    color:white;
+    background-color: black;
+    place-content: center;
+    padding:150px 50px 150px 50px;}
+    h1{
+        color:black;
+        font-weight:700;
+        font-size: larger;
+    }
+    */
+
+
+    #flex{justify-content:space-between;
+        align-items: center;
+    
+        
+        place-content: center;
+        
+    }
+    h1{
+        margin-top:140px;
+    }
+    h1,h2{
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    #hero{ align-items:center;
+        color:white;
+        background-color: black;
+        place-content: center;
+       padding: 70px 50px 150px 50px;
+    }
+        h1,h2{
+            color:white;
+            font-weight:700;
+            font-size: 48px;
+        }
+        img{
+            size:20%;
+        }
+        #sct2{
+            margin: 20px;
+            padding:40px;
+            display:flex;
+            justify-content:space-around;
+            flex-grow: inherit;
+            column: gap 5px; ;
+        }
+        #bigcolumn{
+            
+            display:grid;
+        }
+        #column3,#counter{
+            display:flex;
+        }
+        #wizeman{
+            size:;
+        width:;
+        height:;
+            max-width:fit-content;
+        }
+        #label,#grid{
+            display:grid;
+        }
+        #sct7{
+        background-image: url(img/Oxgital-Header\ \(1\)\ \(1\).png);
+        background-blend-mode: overlay;
+        background-color: rgb(36, 35, 35);
+        opacity:;
+        padding:30px
+    }
+    #sct7{
+        color:#ffffff;
+        padding:10%;
+    }
+    #sct7btn{margin-top:30px;
+        color:black;
+        background-color:white;
+        border:none;
+        outline:1px solid white;
+        padding:10px;
+        border-radius: 10px;
+    }
+    #sct7btn:hover{
+        color:white;
+        background-color:black;
+        border:none;
+        outline:1px solid black;
+    }
+    #paragraph{
+        font-family:arial;
+        font-size:16px;
+    }
+    #footer{color:white;
+        background-color:#000000;
+        padding:10%;
+        display:flex;
+        column-gap:40px;
+        font-weight: 300;
+    }
+    footer{color:white;
+        display:grid;
+        background-color: #000000;
+    }
+    #footer1{padding: 5%;
+        display:flex;
+        justify-content:space-between;
+    }
+    #fcolumn,#fcolumn1,#fcolumn2{
+        margin-top: 10px;
+        display:grid;
+    }
+    #fcolumn1 a{color:white;
+        font-size:14px;
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+    }
+     #fcolumn1 a:hover{text-align: left;
+        color:#ddac17;
+        font-size: 14px;
+        text-decoration: none;
+    
+        
+    font-weight: 400;
+    }
+    header{
+        font-family:Arial, Helvetica, sans-serif;
+        margin-top:10px;
+        margin-bottom:5px;
+        
+    }
+    #copyright{color:white;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color:#000000;
+    }
+    #flex,#bigcolumn{margin-left:20%;}
+    #team{
+        font-size:62px;
+    }
+    #dsc{
+        font-size:16px;
+    }
+    
+    /*
+    .dropdown{
+        display:inline-block;
+        position:relative;
+    }*/
+    .dropdown-links{
+        display:none;
+        color:white;
+        width:100%;
+        overflow:auto;/* to nable scrolling on small screen*/
+        z-index:1;
+    }
+    /*.dropdown:hover .dropdown-links{
+        display:block;
+    }*/
+    nav{
+        display:flex;
+        justify-content: space-between;
+        margin-bottom: 40px;
+        margin-top: 3px;
+    }
+    nav a{text-decoration: none;
+        color:white;
+        font-family:Arial, Helvetica, sans-serif
+    }
+    nav a:hover{
+        color:#ddac17;
+    }
+    nav button{
+        border-radius: 10px;
+        border:none;
+        padding:5px;
+        width:8%;
+    }
+    nav button:hover{
+        background-color: #ddac17;
+        color:white;
+    }
+    #label h2{
+        color:black;
+    }

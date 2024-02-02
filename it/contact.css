@@ -1,0 +1,40 @@
+.container{
+    padding:10%;
+    display:flex;
+    justify-content:space-evenly;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+form input{
+    padding:10px;
+    border:none;
+    background-color: rgb(248, 248, 248);
+    border-radius:10px;
+    margin:10px auto 5px auto;
+    width:150%;
+}
+form button{
+    background-color: black;
+    color:white;
+    padding:5px;
+    width:50%;
+    border:none;
+    margin-top:10px;
+
+}
+.b{
+    margin-left:150%;
+}
+form button:hover{
+    background-color: darkgoldenrod;
+    color:white;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+#details h{
+    color:black;
+    font-size:24px;
+}

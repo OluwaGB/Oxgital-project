@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body id="body">
+  <script>
+        for(let i=0;i<=12;i++){
+          
+          product = 12 * i;  document.write(`12 * ${i}  = ${product} 
+          <br>`)
+        }
+        window.onload = function show(){
+         var display =  (`${function multiplication(){
+            for(let a=0;a<=12;a++){
+          
+          product = 12 * a;  
+          document.write(`13 * ${a} = ${product} 
+          <br>`)
+        }
+        multiplication();
+          }}`)
+          document.getElementById("body").innerHTML = display;
+          
+        }
+        document.getElementById("body").innerHTML = "show";
+    </script>
+  
+    
+</body>
+</html>

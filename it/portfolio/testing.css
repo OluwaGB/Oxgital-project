@@ -1,0 +1,28 @@
+#dbtn{
+    padding:0.5rem;
+    background-color: dodgerblue;
+    color:white;
+    border-top-left-radius: 10px;
+    border:none;
+}
+#links{
+    display:table-cell;
+}
+#links a{
+    display:table-cell ;
+    
+    color:dodgerblue;
+    text-decoration:none;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:1rem;
+}
+#link2 {display:flex;
+    text-decoration: none;
+     color:dodgerblue;
+    text-decoration:none;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:1rem;
+}
+#link2 a{
+    text-decoration: none;
+}

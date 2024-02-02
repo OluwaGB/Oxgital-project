@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" language="javascript">
+logo = document.getElementById("logo");
+function describeImage(){
+    alert(logo.height\n logo.src\n logo.width\n logo.height);
+}
+
+    </script>
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .btn{color:white;
+            background-color:black;
+        text-decoration: none;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: small;
+        }
+        .dropdown{ 
+        position:relative;
+            display:inline-block;
+        }
+        .dropdown-links{display:none;
+            position:absolute; /*this position properties makes it possible to place the dropdown-links below the 
+            dropdown-menu*/
+          /*  background-color: #f1f1f1; */
+            min-width:160px;/*To set the width of the dropdown-links the same as that of the menu btn we set the width 
+            property to be 100%;*/
+            overflow:auto;/* To enable scroll on small screens*/
+            z-index:1;
+            
+            box-shadow: 0px 8px 10px 0px rgba(0,0,0.1);
+
+        }
+        .dropdown-links a{
+            color:black;
+            text-decoration:none;
+            display:block;
+        }
+        .dropdown:hover .dropdown-links{
+            display:block; /*On hovering on the dropdown-menu,the dropdown-links became visible using the block display properties*/
+
+        }
+        /*change the background color of the button on hovering on the dropdown-menu*/
+        .dropdown-menu .btn{
+            background-color:dodgerblue;
+        }
+        
+    </style>
+ <img src="img/LinkedIn_logo_initials.png-e1680097020675.webp" id="logo" onclick="describeImage()">  
+ 
+ <div class="dropdown">
+    <a class="drop-btn">Menu</a>
+    <div class="dropdown-links">
+        <a href="#">sales</a>
+        <a href="#">presales</a>
+        <a href="#">postsales</a>
+        <a href="#">normalsales</a>
+    </div>
+ </div>
+</body>
+</html>
